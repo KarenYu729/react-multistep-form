@@ -44,7 +44,15 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <div style={{
+        position: "relative",
+        background: "white",
+        border: "1px solid black",
+        padding: "2rem",
+        margin: "1rem",
+        borderRadius: ".5rem",
+        fontFamily: "Arial",
+        maxWidth: "max-content"}}>
             <form onSubmit={onSubmit}>
                 {/*handel current step and total step (current/total) */}
                 <div style={{position: "absolute", top: ".5rem", right: ".5rem"}}>
